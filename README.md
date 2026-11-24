@@ -2,6 +2,8 @@
 
 A battle debug menu for experimenting with letters, gems, health, potions, status effects, and treasures in Bookworm Adventures Deluxe.
 
+![Battle debug menu open during the Sea Serpent fight](pic.png)
+
 ## Install
 
 1. Download or clone this repository. If you downloaded a ZIP file, extract it first.
