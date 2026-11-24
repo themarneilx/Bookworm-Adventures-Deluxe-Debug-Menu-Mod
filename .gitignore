@@ -1,0 +1,7 @@
+*.pak*
+*.exe
+*.dll
+*.bwa
+*.log
+__pycache__/
+*.pyc
