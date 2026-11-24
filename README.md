@@ -4,25 +4,20 @@ A battle debug menu for experimenting with letters, gems, health, potions, statu
 
 ## Install
 
-1. Download or clone this repository and open a terminal in its folder.
-2. Close Bookworm Adventures. Find the game folder containing `BookwormAdventures.exe` and `main.pak`. For Heroic, use the folder that contains the executable selected in the game's settings.
-3. Run the installer with Python 3.10 or later, replacing the example path with your game folder.
+1. Download or clone this repository. If you downloaded a ZIP file, extract it first.
+2. Open a command window in the mod folder. On Windows, open the folder in File Explorer, type `cmd` in the address bar, and press **Enter**.
+3. Close Bookworm Adventures and find the game folder containing `BookwormAdventures.exe` and `main.pak`.
+4. Run the installer with Python 3.10 or later. Replace the example path with your game folder.
 
-   Linux
-
-   ```sh
-   python3 install.py "/path/to/Bookworm Adventures Deluxe"
    ```
-
-   Windows
-
-   ```powershell
    py -3 install.py "C:\Games\Bookworm Adventures Deluxe"
    ```
 
-4. Launch the game normally, enter a turn-based battle, and press **F9** once you can select tiles.
+   If your Python command is `python3` or `python`, use it in place of `py -3`.
 
-Each player supplies their own game installation. The installer checks the original archive's checksum and saves a verified copy as `main.pak.bookworm-debug.original` beside the active archive. The mod was tested on Linux through Heroic with GE-Proton.
+5. Launch the game normally, enter a turn-based battle, and press **F9** once you can select tiles.
+
+Each player supplies their own game installation. The installer checks the original archive's checksum and saves a verified copy as `main.pak.bookworm-debug.original` beside the active archive.
 
 ## Controls
 
@@ -39,13 +34,13 @@ The **Board** page edits letters and letter bonuses, adds a selected gem, or pla
 
 ## Restore or update
 
-Close the game and run the installer with `--restore` to restore the original archive.
+Close the game, open a command window in the mod folder, and run the installer with `--restore`. Use the same Python command and game folder as during installation.
 
-```sh
-python3 install.py "/path/to/Bookworm Adventures Deluxe" --restore
+```
+py -3 install.py "C:\Games\Bookworm Adventures Deluxe" --restore
 ```
 
-On Windows, use `py -3` in place of `python3`. To update the mod, restore the original archive, download the new revision, and run the install command again.
+To update the mod, restore the original archive, download the new revision, and run the install command again.
 
 ## Publish to GitHub
 
