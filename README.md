@@ -41,7 +41,3 @@ py -3 install.py "C:\Games\Bookworm Adventures Deluxe" --restore
 ```
 
 To update the mod, restore the original archive, download the new revision, and run the install command again.
-
-## Publish to GitHub
-
-Run `gh repo create` from the mod repository and choose to push an existing local repository. Select private visibility for personal use or public visibility to share it. The repository tracks the Lua source, installer, and documentation. [GitHub's publishing instructions](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github)
